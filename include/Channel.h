@@ -1,3 +1,8 @@
+/*
+Selectable io channel. Used for register and response io events. Note that it does not own file descriptor
+It is the member of EventLoop, TCPConnection, ...
+*/
+
 #ifndef _CHANNEL_H_
 #define _CHANNEL_H_
 
